@@ -45,11 +45,21 @@
 /************************************/	
 
 :root{
-	--primary-color			: #042A2D;
+	/* --primary-color			: #042A2D;
 	--secondary-color		: #F2F1ED;
 	--text-color			: #8F8F8F;
 	--accent-color			: #73ED7C;
 	--dark-color		    : #019297;
+	--white-color			: #FFFFFF;
+	--divider-color			: #DFE1DE;
+	--dark-divider-color	: #FFFFFF33;
+	--error-color			: rgb(230, 87, 87);
+	--default-font			: "Fustat", sans-serif; */
+	--primary-color			: #042A2D;
+	--secondary-color		: #F2F1ED;
+	--text-color			: #8F8F8F;
+	--accent-color			: #37b7ff;
+	--dark-color		    : #0148ad;
 	--white-color			: #FFFFFF;
 	--divider-color			: #DFE1DE;
 	--dark-divider-color	: #FFFFFF33;
@@ -1975,7 +1985,7 @@ header.main-header .header-sticky.active .container-fluid::before{
 
 .testimonial-slider-content,
 .testimonial-slider-image{
-	width: calc(50% - 15px);
+	/* width: calc(50% - 15px); */
 }
 
 .testimonial-slider-image figure{
@@ -6013,10 +6023,10 @@ header.main-header .header-sticky.active .container-fluid::before{
 	font-size: 20px;
 }
 .swiper-button-next{
-	color: #73ed7c;
+	color: #37b7ff;
 }
 .swiper-button-prev{
-	color: #73ed7c;
+	color: #37b7ff;
 }
 .mfp-iframe-holder .mfp-content {
     line-height: 0;
