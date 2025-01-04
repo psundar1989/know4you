@@ -283,10 +283,9 @@
                         <h2 class="wow fadeInUp" data-wow-delay="0.25s"> Mut zur Veränderung – <span>Schlüssel zum
                                 Erfolg</span>
                         </h2>
+                        <p> EHier sind die inhaltlichen Erklärungen zu den Schlüsselwörtern für die Verbesserung von Business-Personen in Zürich, in prägnanter Kurzform. </p>
+
                     </div>
-                    <p> Entdecke praxisnahe Ansätze für Führung, Karriere und persönliche Entwicklung, um beruflichen Erfolg
-                        nachhaltig zu sichern. Von Leadership und Teamarbeit bis hin zu Produktivität und Resilienz –
-                        optimiere deine Kompetenzen gezielt. </p>
                 </div>
             </div>
             <div class="row">
@@ -299,29 +298,27 @@
                         </div>
                         <div class="how-work-content">
                             <h3>
-                                <span>01.</span> Führung & Leadership
+                                <span>01.</span> Führung und Leadership 
                             </h3>
                             <div class="member-experience-list wow fadeInUp" data-wow-delay="0.25s">
                                 <ul>
                                     <li>
-                                        <b>Leadership-Entwicklung:</b> WerdezueinerinspirierendenFührungspersönlichkeit, die
-                                        anderemotiviert.
+                                        <b>Leadership-Entwicklung:</b> Werde zu einer inspirierenden Führungspersönlichkeit, die andere motiviert.
                                     </li>
                                     <li>
-                                        <b>Führungsstilverbessern: </b> EntwickledeinenindividuellenStil, der Vertrauen und
-                                        Effizienzfördert
+                                        <b>Führungsstil verbessern: </b> Entwickle deinen individuellen Stil, der Vertrauen und Effizienz fördert.
                                     </li>
                                     <li>
-                                        <b>Change-Management: </b> Führedein Team erfolgreichdurchVeränderungen und
-                                        Umstrukturierungen.
+                                        <b>Entscheidungsfindung optimieren: </b> Triff klare, fundierte Entscheidungen, auch unter Druck.
                                     </li>
                                     <li>
-                                        <b>Mitarbeiterführung: </b> Förderedeine Mitarbeiter durchklareZiele und
-                                        gezielteUnterstützung.
+                                        <b>Change-Management: </b> Führe dein Team erfolgreich durch Veränderungen und Umstrukturierungen.
                                     </li>
                                     <li>
-                                        <b>Delegationskompetenz: </b> Lerne, Aufgabeneffektivabzugeben und Ressourcen
-                                        optimal zunutzen.
+                                        <b>Mitarbeiterführung: </b> Fördere deine Mitarbeiter durch klare Ziele und gezielte Unterstützung. 
+                                    </li>
+                                    <li>
+                                        <b>Delegationskompetenz: </b> Lerne, Aufgaben effektiv abzugeben und Ressourcen optimal zu nutzen. 
                                     </li>
                                 </ul>
                             </div>
@@ -338,32 +335,27 @@
                         </div>
                         <div class="how-work-content">
                             <h3>
-                                <span>02.</span> Karriere und beruflicheEntwicklung
+                                <span>02.</span> Karriere und berufliche Entwicklung
                             </h3>
                             <div class="member-experience-list wow fadeInUp" data-wow-delay="0.25s">
                                 <ul>
                                     <li>
-                                        <b>Karriere-Coaching:</b> Finde deinen nächsten Karriereschritt und setze ihn
-                                        gezielt um.
+                                        <b>Karriere-Coaching:</b> Finde deinen nächsten Karriereschritt und setze ihn gezielt um.
                                     </li>
                                     <li>
-                                        <b>Networking: </b> Baue gezielt Beziehungen auf, die dir beruflich weiterhelfen.
+                                        <b>Networking: </b> Baue gezielt Beziehungen auf, die dir beruflich weiterhelfen. 
                                     </li>
                                     <li>
-                                        <b>Work-Life-Balance: </b> Schaffe eine gesunde Balance zwischen Beruf und
-                                        Privatleben.
+                                        <b>Work-Life-Balance: </b> Schaffe eine gesunde Balance zwischen Beruf und Privatleben.
                                     </li>
                                     <li>
-                                        <b>Auftrittskompetenz: </b> Präsentiere dich souverän und überzeugend in jeder
-                                        Situation.
+                                        <b>Auftrittskompetenz: </b> Präsentiere dich souverän und überzeugend in jeder Situation.
                                     </li>
                                     <li>
-                                        <b>Zeitmanagement: </b> Organisiere deinen Arbeitsalltag effizient und ohne
-                                        Überforderung.
+                                        <b>Zeitmanagement: </b> Organisiere deinen Arbeitsalltag effizient und ohne Überforderung. 
                                     </li>
                                     <li>
-                                        <b>Zielorientierung: </b> Arbeite strategisch und fokussiert an klar definierten
-                                        Zielen.
+                                        <b>Zielorientierung: </b> Arbeite strategisch und fokussiert an klar definierten Zielen.
                                     </li>
                                 </ul>
                             </div>
@@ -380,27 +372,24 @@
                         </div>
                         <div class="how-work-content">
                             <h3>
-                                <span>03.</span> Kommunikation und Zusammenarbeit
+                                <span>03.</span> Kommunikation und Zusammenarbeit  
                             </h3>
                             <div class="member-experience-list wow fadeInUp" data-wow-delay="0.25s">
                                 <ul>
                                     <li>
-                                        <b>Konfliktmanagement:</b> Löse berufliche Konflikte konstruktiv und nachhaltig.
+                                        <b>Konfliktmanagement:</b> Löse berufliche Konflikte konstruktiv und nachhaltig.  
                                     </li>
                                     <li>
-                                        <b>Kommunikationsstärke: </b> Überzeuge mit klaren und präzisen Botschaften.
+                                        <b>Kommunikationsstärke: </b> Überzeuge mit klaren und präzisen Botschaften. 
                                     </li>
                                     <li>
-                                        <b>Teamdynamik verbessern: </b> Fördere ein produktives und harmonisches
-                                        Arbeitsklima.
+                                        <b>Teamdynamik verbessern: </b> Fördere ein produktives und harmonisches Arbeitsklima. 
                                     </li>
                                     <li>
-                                        <b>Verhandlungskompetenz: </b> Erziele bessere Ergebnisse durch geschickte
-                                        Verhandlungsstrategien..
+                                        <b>Verhandlungskompetenz: </b> Erziele bessere Ergebnisse durch geschickte Verhandlungsstrategien. 
                                     </li>
                                     <li>
-                                        <b>Interkulturelle Kommunikation: </b> Lerne, in globalen Kontexten erfolgreich zu
-                                        kommunizieren.
+                                        <b>Interkulturelle Kommunikation: </b> Lerne, in globalen Kontexten erfolgreich zu kommunizieren.
                                     </li>
                                 </ul>
                             </div>
@@ -417,28 +406,25 @@
                         </div>
                         <div class="how-work-content">
                             <h3>
-                                <span>04.</span> Produktivitätssteigerung und Effizienz
+                                <span>04.</span> Produktivität und Effizienz 
                             </h3>
                             <div class="member-experience-list wow fadeInUp" data-wow-delay="0.25s">
                                 <ul>
                                     <li>
-                                        <b>Konfliktmanagement:</b> Maximiere deine Leistung durch fokussiertes Arbeiten.
+                                        <b>Produktivitätssteigerung:</b> Maximiere deine Leistung durch fokussiertes Arbeiten. 
                                     </li>
                                     <li>
-                                        <b>Prozesse optimieren: </b> Identifiziere Schwachstellen und steigere die Effizienz
-                                        in Arbeitsabläufen.
+                                        <b>Prozesse optimieren: </b> Identifiziere Schwachstellen und steigere die Effizienz in Arbeitsabläufen. 
                                     </li>
                                     <li>
-                                        <b>Innovationsförderung: </b> Entwickle kreative Lösungen und fördere neue Ideen in
-                                        deinem Team.
+                                        <b>Innovationsförderung: </b> Entwickle kreative Lösungen und fördere neue Ideen in deinem Team.  
+
                                     </li>
                                     <li>
-                                        <b>Digitalisierung umsetzen: </b> Nutze digitale Tools, um Prozesse zu
-                                        automatisieren und zu vereinfachen.
+                                        <b>Digitalisierung umsetzen: </b> Nutze digitale Tools, um Prozesse zu automatisieren und zu vereinfachen. 
                                     </li>
                                     <li>
-                                        <b>Selbstmanagement: </b> Plane und priorisiere deine Aufgaben eigenständig und
-                                        effektiv.
+                                        <b>Selbstmanagement: </b> Plane und priorisiere deine Aufgaben eigenständig und effektiv.
                                     </li>
                                 </ul>
                             </div>
@@ -455,28 +441,24 @@
                         </div>
                         <div class="how-work-content">
                             <h3>
-                                <span>05.</span> Unternehmerisches Wachstum
+                                <span>05.</span> Unternehmerisches Wachstum 
                             </h3>
                             <div class="member-experience-list wow fadeInUp" data-wow-delay="0.25s">
                                 <ul>
                                     <li>
-                                        <b>Geschäftsentwicklung:</b> Finde Wachstumschancen und setze neue Strategien
-                                        erfolgreich um.
+                                        <b>Geschäftsentwicklung:</b>  Wachstumschancen und setze neue Strategien erfolgreich um. 
                                     </li>
                                     <li>
                                         <b>Strategieplanung: </b> Erstelle eine klare Roadmap für langfristigen Erfolg.
                                     </li>
                                     <li>
-                                        <b>Kundenbindung verbessern: </b> Stärke die Beziehung zu deinen Kunden durch echten
-                                        Mehrwert.
+                                        <b>Kundenbindung verbessern: </b> Stärke die Beziehung zu deinen Kunden durch echten Mehrwert. 
                                     </li>
                                     <li>
-                                        <b>Nachhaltigkeit im Business: </b> Integriere umweltfreundliche und nachhaltige
-                                        Praktiken in dein Geschäft.
+                                        <b>Nachhaltigkeit im Business: </b> Integriere umweltfreundliche und nachhaltige Praktiken in dein Geschäft.  
                                     </li>
                                     <li>
-                                        <b>Markenaufbau: </b> Positioniere dein Unternehmen und dich selbst erfolgreich am
-                                        Markt.
+                                        <b>Markenaufbau: </b> Positioniere dein Unternehmen und dich selbst erfolgreich am Markt. 
                                     </li>
                                 </ul>
                             </div>
@@ -493,24 +475,21 @@
                         </div>
                         <div class="how-work-content">
                             <h3>
-                                <span>06.</span> Persönliche Resilienz im Berufsleben
+                                <span>06.</span> Persönliche Resilienz im Berufsleben 
                             </h3>
                             <div class="member-experience-list wow fadeInUp" data-wow-delay="0.25s">
                                 <ul>
                                     <li>
-                                        <b>Stressbewältigung:</b> Lerne, Druck zu bewältigen, ohne auszubrennen.
+                                        <b>Stressbewältigung:</b> Lerne, Druck zu bewältigen, ohne auszubrennen.  
                                     </li>
                                     <li>
-                                        <b>Resilienz stärken: </b> Baue mentale Stärke auf, um beruflichen Herausforderungen
-                                        zu trotzen.
+                                        <b>Resilienz stärken: </b> Baue mentale Stärke auf, um beruflichen Herausforderungen zu trotzen.
                                     </li>
                                     <li>
-                                        <b>Achtsamkeit im Arbeitsalltag: </b> Finde Momente der Ruhe und Konzentration im
-                                        hektischen Berufsleben.
+                                        <b>Achtsamkeit im Arbeitsalltag: </b> Finde Momente der Ruhe und Konzentration im hektischen Berufsleben.
                                     </li>
                                     <li>
-                                        <b>Burnout-Prävention: </b> Schütze dich vor Überlastung durch bewusste Pausen und
-                                        Selbstpflege.
+                                        <b>Burnout-Prävention: </b> Schütze dich vor Überlastung durch bewusste Pausen und Selbstpflege.
                                     </li>
                                 </ul>
                             </div>
