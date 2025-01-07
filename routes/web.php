@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SubscribersController;
 
@@ -12,3 +13,5 @@ Route::view('success-story/', 'success-story');
 // Define the newsletter subscription routes
 
 Route::post('subscribe', [SubscribersController::class, 'sendEmail'])->name('subscribe');
+Route::post('contact-submit', [ContactController::class, 'submitForm'])->name('contact-submit');
+
