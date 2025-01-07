@@ -39,7 +39,7 @@ class SubscribersMail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'email.subscribers_mail',
+            view: 'email.subscribers_mailinfo',
             with: ['details' => $this->data], // Pass the data to the view
         );
     }

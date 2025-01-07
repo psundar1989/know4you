@@ -19,8 +19,16 @@
               <form id="subscribe-form">
                   @csrf <!-- Include CSRF token for security -->
                   <div class="input-group">
+                    {{-- <div id="loader" style="display: none;">
+                      <p>Loading...</p> <!-- You can replace this with an actual loader image or animation -->
+                  </div> --}}
                       <input type="email" class="cus_form-control form-control" name="email" placeholder="Your Email" required>
-                      <button type="submit" class="btn btn-danger btn-default">Subscribe</button>
+                      <button type="submit" class="btn btn-danger btn-default">
+                      
+                        <span id="loader" class="spinner-border spinner-border-sm text-white" text-whote aria-hidden="true" style="display: none;"></span>
+                        Subscribe
+        
+                      </button>
                   </div>
               </form>
                     
@@ -135,12 +143,19 @@
       </footer>
       <!-- Footer End -->
 
+      
+    
+
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
       <script>
           $(document).ready(function () {
               $('form#subscribe-form').on('submit', function (e) {
+                alert('test');
                   e.preventDefault(); 
+
+                  $('#loader').show();
+
                   const formData = {
                       email: $('input[name="email"]').val(),
                       _token: $('input[name="_token"]').val(),
@@ -151,6 +166,7 @@
                       type: "POST",
                       data: formData,
                       success: function (response) {
+                        $('#loader').hide();
                           // Hide the form
                           $('#subscribe-form').hide();
       

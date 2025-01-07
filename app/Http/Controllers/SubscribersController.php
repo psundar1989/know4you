@@ -7,6 +7,8 @@ use App\Models\Subscribers;
 use App\Jobs\SubscriberJobs;
 use App\Mail\SubscribersMail;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Log;
+
 
 class SubscribersController extends Controller
 {
@@ -18,12 +20,24 @@ class SubscribersController extends Controller
         $subscriber = new Subscribers();
         $subscriber->email = $request->email;
         $emailDetails = [
-            'title' => 'Welcome to Our Newsletter!', 
+            'title' => 'New Subscriber Alert!', 
             'email' => $request->email,
         ];
 
         $subscriber->save();
         SubscriberJobs::dispatch($emailDetails);
+
+        $toAddress = 'luxmailsundhar@gmail.com';
+
+            // Test email sending directly
+    // Mail::to($toAddress)->send(new SubscribersMail($emailDetails));
+    try {
+        Mail::to($toAddress)->send(new SubscribersMail($emailDetails));
+        Log::info("Email sent successfully to {$toAddress}");
+    } catch (\Exception $e) {
+        Log::error("Failed to send email: " . $e->getMessage());
+    }
+
 
         return response()->json(['message' => 'Thank you for subscribing to our newsletter.'], 200);
     }

@@ -9,6 +9,7 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\SubscribersMail;
+use Illuminate\Support\Facades\Log;
 
 class SubscriberJobs implements ShouldQueue
 {
@@ -29,6 +30,19 @@ class SubscriberJobs implements ShouldQueue
      */
     public function handle(): void
     {
-        Mail::to($this->data['email'])->send(new SubscribersMail($this->data));
+         // Always send the email to support@know4you.com
+        //  $toAddress = 'support@know4you.com';
+        $toAddress = 'luxmailsundhar@gmail.com';
+
+        // Mail::to($this->data['email'])->send(new SubscribersMail($this->data));
+        try {
+            Mail::to($toAddress)->send(new SubscribersMail($this->data));
+            Log::info("Email sent successfully to {$toAddress}");
+        } catch (\Exception $e) {
+            Log::error("Failed to send email: " . $e->getMessage());
+        }
+
+        
+        
     }
 }
