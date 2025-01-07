@@ -25,7 +25,7 @@ class SubscribersController extends Controller
         $subscriber->save();
         SubscriberJobs::dispatch($emailDetails);
 
-        return response()->json(['message' => 'Subscription successful, email will be sent shortly.'], 200);
+        return response()->json(['message' => 'Thank you for subscribing to our newsletter.'], 200);
     }
 
 
