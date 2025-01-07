@@ -9,12 +9,25 @@
             </div>
             <!-- Modal Body -->
             <div class="modal-body">
-              <form>
+              {{-- <form>
                 <div class="input-group">
                   <input type="text" class="cus_form-control form-control" placeholder="Your Email">
                   <button class="btn btn-danger btn-default">Subscribe </span>
                 </div>
+              </form> --}}
+              <div id="message-container" style="display:none;"></div> <!-- For success/error messages -->
+              <form id="subscribe-form">
+                  @csrf <!-- Include CSRF token for security -->
+                  <div class="input-group">
+                      <input type="email" class="cus_form-control form-control" name="email" placeholder="Your Email" required>
+                      <button type="submit" class="btn btn-danger btn-default">Subscribe</button>
+                  </div>
               </form>
+                    
+            @if(session('success'))
+               <p>{{ session('success') }}</p>
+            @endif  
+            
             </div>
           </div>
         </div>
@@ -75,9 +88,9 @@
                   <span>+41792883385</span>
                 </p>
               </div>
-              <form class="mt-3">
+              <form class="mt-3" id="subscribe-form2">
                 <div class="input-group">
-                  <input type="text" class="cus_form-control form-control" placeholder="Your Email">
+                  <input type="text" class="cus_form-control form-control" name="email2" placeholder="Your Email">
                   <button class="btn btn-danger btn-default">Subscribe </span>
                 </div>
               </form>
@@ -121,3 +134,69 @@
         </div>
       </footer>
       <!-- Footer End -->
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+      <script>
+          $(document).ready(function () {
+              $('form#subscribe-form').on('submit', function (e) {
+                  e.preventDefault(); 
+                  const formData = {
+                      email: $('input[name="email"]').val(),
+                      _token: $('input[name="_token"]').val(),
+                  };
+      
+                  $.ajax({
+                      url: "{{ route('subscribe') }}",
+                      type: "POST",
+                      data: formData,
+                      success: function (response) {
+                          // Hide the form
+                          $('#subscribe-form').hide();
+      
+                          // Show success message
+                          const successMessage = `<div class="alert alert-success" role="alert">${response.message}</div>`;
+                          $('#message-container').html(successMessage).show();
+                      },
+                      error: function (xhr) {
+                          if (xhr.status === 422) {
+                              const errors = xhr.responseJSON.errors;
+                              const errorMessage = `<div class="alert alert-danger" role="alert">${errors.email[0]}</div>`;
+                              $('#message-container').html(errorMessage).show();
+                          } else {
+                              const generalError = `<div class="alert alert-danger" role="alert">An error occurred. Please try again.</div>`;
+                              $('#message-container').html(generalError).show();
+                          }
+                      }
+                  });
+              });
+              // form2
+              $('form#subscribe-form2').on('submit', function (e) {
+                  e.preventDefault(); 
+                  const formData = {
+                      email: $('input[name="email2"]').val(),
+                      _token: $('input[name="_token"]').val(),
+                  };
+      
+                  $.ajax({
+                      url: "{{ route('subscribe') }}",
+                      type: "POST",
+                      data: formData,
+                      success: function (response) {
+                        alert('test');
+                      },
+                      error: function (xhr) {
+                          if (xhr.status === 422) {
+                              const errors = xhr.responseJSON.errors;
+                              const errorMessage = `<div class="alert alert-danger" role="alert">${errors.email[0]}</div>`;
+                              $('#message-container').html(errorMessage).show();
+                          } else {
+                              const generalError = `<div class="alert alert-danger" role="alert">An error occurred. Please try again.</div>`;
+                              $('#message-container').html(generalError).show();
+                          }
+                      }
+                  });
+              });
+          });
+      </script>
+      
